@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #e0ba8d;
+}
+
+.slider{
+  width: 1800px;
+  height: 680px;
+  background: url(Bigdinner.jpeg);
+  margin: 100px auto;
+  animation: slide 10s infinite;
+
+}
+@keyframes slide {
+  25%{
+    background: url(Bigdinner.jpeg);
+  }
+  50%{
+    background: url(pic2.jpg);
+  }
+  75%{
+    background: url(pic3.jpg);
+  }
+  100%{
+    background: url(pic4.jpg);
+  }
+}
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+// style the background color of the tree view
+.tree-view {
+  // background-color: whitesmoke;
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+}
+
+// style UI elements inside atom-text-editor
+atom-text-editor .cursor {
+  // border-color: red;
+}/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+// style the background color of the tree view
+.tree-view {
+  // background-color: whitesmoke;
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+}
+
+// style UI elements inside atom-text-editor
+atom-text-editor .cursor {
+  // border-color: red;
+}
