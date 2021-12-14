@@ -4,6 +4,7 @@ body{
   background: #FFF8DC;
 }
 
+
 .slider{
   width: 1800px;
   height: 680px;
@@ -26,6 +27,39 @@ body{
     background: url(pic4.jpg);
   }
 }
+
+ul {
+position: fixed;
+top: 0;
+width: 100%;
+text-align: center;
+color: #000000;
+font-family: fantasy;
+font-size: 25px
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8B0000;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 20px 100px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #FFF8DC;
+  }
 /*
  * Your Stylesheet
  *
