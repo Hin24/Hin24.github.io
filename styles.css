@@ -5,17 +5,227 @@ body{
 }
 
 
+
+/** About us **/
+.AboutUs{
+margin-top: 150px;
+margin-left: 120px;
+color: #000000;
+font-family: Verdana, Sans-Serif;
+width: 500px;
+height: 200px;
+font-size: 20px;
+float: left;
+}
+
+.glazen {
+    float: right;
+    margin-top: 100px;
+    margin-right: 120px;
+}
+
+/** Contact **/
+.Contact {
+margin-top: 150px;
+margin-left: 120px;
+color: #000000;
+font-family: Verdana, Sans-Serif;
+width: 500px;
+height: 200px;
+font-size: 20px;
+float: left;
+}
+
+.contactus {
+  float: right;
+  margin-right: 120px;
+  margin-top: 200px;
+}
+
+
+
+
+/** Servicess **/
+.OurServices {
+    float: right;
+    margin-right: 120px;
+    margin-top: 120px;
+    font-family: Verdana, Sans-Serif;
+    width: 500px;
+    height: 200px;
+    font-size: 20px;
+}
+
+#maps {
+  display: none;
+  padding: 10px;
+
+}
+
+.adres {
+    text-decoration: underline;
+    text-decoration-color: #8B0000;
+}
+
+.form {
+    float: left;
+    margin-top: 200px;
+    margin-left: 120px;
+    border: 2px solid #DEB887;
+    border-radius: 12px ;
+    background-color: #DEB887 ;
+    text-align: center;
+    width: 550px;
+    font-family: Verdana, Sans-Serif;
+    font-size: 15px;
+}
+
+.inputform {
+    text-align: center;
+    font-size: 20px;
+}
+
+.sendbutton {
+    border: 2px solid #8B0000;
+    border-radius: 18px;
+    background-color: #8B0000;
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+  background-color: #B22222;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #B22222;
+  border-radius: 5px;
+  width: 500px;
+  height: 300px;
+  font-size: 20px;
+}
+.modaltext {
+    margin-top: 120px;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/** Our Recipes **/
+.OurRecipes {
+margin-top: 150px;
+margin-left: 120px;
+color: #000000;
+font-family: Verdana, Sans-Serif;
+width: 500px;
+height: 10px;
+font-size: 20px;
+}
+
+table, th, td {
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: Verdana, Sans-Serif;
+    border: 1px solid black;
+}
+
+.kokenicoon {
+    float: right;
+    margin-top: 120px;
+    margin-right: 65px;
+}
+
+.receptlink {
+    color: #000000;
+}
+
+.styledtable {
+    border-collapse: collapse;
+  margin-top: 120px;
+  margin-left: 120px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    float: left;
+
+
+}
+
+thead tr {
+    background-color: #8B0000;
+    color: #ffffff;
+    text-align: left;
+}
+
+ th, td {
+    padding: 12px 15px;
+}
+
+ tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+ tbody tr:nth-of-type(even) {
+    background-color: #B22222;
+}
+
+ tbody tr:last-of-type {
+    border-bottom: 2px solid #8B0000;
+}
+
+.styledtable .active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+/** Homepage**/
+.logo {
+    float: right;
+
+}
+
+.footer {
+    text-align: center;
+    font-family: Courier, Monospace;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .slider{
-  width: 1800px;
-  height: 680px;
-  background: url(Bigdinner.jpeg);
+  width: 1050px;
+  height: 700px;
+  background: url(grotelogo.png);
   margin: 100px auto;
+  margin-bottom: 20px;
   animation: slide 10s infinite;
 
 }
 @keyframes slide {
   25%{
-    background: url(Bigdinner.jpeg);
+    background: url(nicepic.jpg);
   }
   50%{
     background: url(pic2.jpg);
@@ -24,7 +234,7 @@ body{
     background: url(pic3.jpg);
   }
   100%{
-    background: url(pic4.jpg);
+    background: url(pic4.jpeg);
   }
 }
 
@@ -34,8 +244,8 @@ top: 0;
 width: 100%;
 text-align: center;
 color: #000000;
-font-family: fantasy;
-font-size: 25px
+font-family: Verdana;
+font-size: 20px
 }
   ul {
     list-style-type: none;
@@ -52,74 +262,68 @@ font-size: 25px
   li a {
     display: block;
     color: #000000;
+    font-weight: bold;
     text-align: center;
-    padding: 20px 100px;
+    padding: 25px 50px;
     text-decoration: none;
   }
 
   li a:hover {
     background-color: #FFF8DC;
   }
-/*
- * Your Stylesheet
- *
- * This stylesheet is loaded when Atom starts up and is reloaded automatically
- * when it is changed and saved.
- *
- * Add your own CSS or Less to fully customize Atom.
- * If you are unfamiliar with Less, you can read more about it here:
- * http://lesscss.org
- */
+ 
 
+/** css en classes voor alle recepten **/
 
-/*
- * Examples
- * (To see them, uncomment and save)
- */
-
-// style the background color of the tree view
-.tree-view {
-  // background-color: whitesmoke;
+.receptnaam {
+  margin-top: 150px;
+margin-left: 100px;
+color: #000000;
+font-family: Verdana, Sans-Serif;
+width: 500px;
+height: 200px;
+font-size: 20px;
+float: left;
 }
 
-// style the background and foreground colors on the atom-text-editor-element itself
-atom-text-editor {
-  // color: white;
-  // background-color: hsl(180, 24%, 12%);
+ 
+
+.ingredienten {
+    float: right;
+    margin-top: 235px;
+    margin-right: 100px;
 }
 
-// style UI elements inside atom-text-editor
-atom-text-editor .cursor {
-  // border-color: red;
-}/*
- * Your Stylesheet
- *
- * This stylesheet is loaded when Atom starts up and is reloaded automatically
- * when it is changed and saved.
- *
- * Add your own CSS or Less to fully customize Atom.
- * If you are unfamiliar with Less, you can read more about it here:
- * http://lesscss.org
- */
-
-
-/*
- * Examples
- * (To see them, uncomment and save)
- */
-
-// style the background color of the tree view
-.tree-view {
-  // background-color: whitesmoke;
+.ingredienten2 /** twee recepten hadden langere namen waardoor de ingredienten tabel meer naar beneden moest**/ {
+    float: right;
+    margin-top: 270px;
+    margin-right: 100px;
 }
 
-// style the background and foreground colors on the atom-text-editor-element itself
-atom-text-editor {
-  // color: white;
-  // background-color: hsl(180, 24%, 12%);
+.receptintro {
+  margin-top: 100px;
+font-size:20px;
+font-weight: bold;
+float: right;
+text-align: center;
+margin-right: 100px;
+margin-left: 100px;
 }
 
-// style UI elements inside atom-text-editor
-atom-text-editor .cursor {
-  // border-color: red;
+.recepten {
+  font-size: 20px;
+  float: left;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
+  
 }
+
+.stappen {
+    font-weight: bold;
+}
+
+
+
+
+

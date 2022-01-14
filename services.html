@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+ <html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script> $(document).ready(function(){
+    $("#adres").click(function(){
+      $("#maps").slideToggle();
+    });
+  });</script>
+</head>
+<body>
+<!-- Page content -->
+<ul>
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="recipes.html">OUR RECIPES</a></li>
+  <li><a href="services.html">OUR SERVICES</a></li>
+  <li><a href="contact.html">CONTACT</a></li>
+  <li><a href="about.html">ABOUT</a></li>
+  <img class= logo src="logo20.png" alt="logo3" width="204" height="74">
+</ul>
+
+<div class= "OurServices">
+  <h2>Our Services</h2>
+  <canvas id="myCanvas" width="500px" height="1px"></canvas>
+
+  <p>Wij verzorgen cateringservice voor uw ideale kerstdiner. We zijn gevestigd in Amsterdam, Kalverstraat 46, 1012 KS.</p><div class="adres" id="adres">Vind ons op de kaart:</div>
+  <div id="maps"><div><iframe width="550" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=nl&amp;q=Kalverstraat%2046,%201012%20KS+(HinJanInDePan)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/">bike gps</a></iframe></div></div>
+  </div>
+
+  <div class=form>
+      <h3>Vul het formulier in om onze catering te bestellen.</h3>
+  <form>
+    <p><input class="inputform" type="text" placeholder="naam" required name="Naam"></p>
+    <p><input class="inputform" type="text" placeholder="someone@example.com" required name="E-mail"></p>
+    <p><input class="inputform" type="number" placeholder="hoeveel personen" required name="Personen"></p>
+    <p><input class="inputform" type="datetime-local" placeholder="datum en tijd" required name="Datum" value="2020-11-16T20:00"></p>
+    <p><input class="inputform" type="text" placeholder="speciale vereisten, allergie&euml;n, etc." required name="Message"></p>
+    <p><button id="myBtn" class="sendbutton">BESTELLING AFRONDEN</button></p>
+  </form>
+  <div id="myModal" class="modal">
+      <script src="script.js"></script>
+  <div class="modal-content">
+      <span class="close">&times;</span> <script src="script.js"></script>
+      <p class=modaltext>Uw Bestelling is succesfol afgerond. Vind de bevestiging in uw mail.</p></div>
+      </div>
+  </div>
+  </body>
+</html>
